@@ -6,7 +6,6 @@ require (
 	github.com/charmbracelet/log v0.4.0
 	github.com/fatih/color v1.17.0
 	github.com/jackc/pgx/v5 v5.6.0
-	github.com/msepp/pgmigrate v0.0.7
 	github.com/spf13/cobra v1.8.1
 	gopkg.in/yaml.v3 v3.0.1
 )
@@ -26,6 +25,7 @@ require (
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/mattn/go-runewidth v0.0.15 // indirect
+	github.com/msepp/pgmigrate v0.0.0-20240910044944-c79c05a619b3 // indirect
 	github.com/muesli/termenv v0.15.2 // indirect
 	github.com/rivo/uniseg v0.4.7 // indirect
 	github.com/rogpeppe/go-internal v1.6.1 // indirect
