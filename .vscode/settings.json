@@ -31,7 +31,7 @@
   "gopls": {
     "buildFlags": ["-tags", "manual"],
     "formatting.gofumpt": true,
-    "formatting.local": "github.com/peterldowns/pgmigrate",
+    "formatting.local": "github.com/msepp/pgmigrate",
     "build.directoryFilters": []
   },
   "[go]": {

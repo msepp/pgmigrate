@@ -1,4 +1,4 @@
-module github.com/peterldowns/pgmigrate
+module github.com/msepp/pgmigrate
 
 go 1.18
 

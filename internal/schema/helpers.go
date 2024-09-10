@@ -5,7 +5,7 @@ import (
 
 	"golang.org/x/exp/constraints"
 
-	"github.com/peterldowns/pgmigrate/internal/pgtools"
+	"github.com/msepp/pgmigrate/internal/pgtools"
 )
 
 // DBObject is an interface satisifed by [Table], [View], [Enum], etc.

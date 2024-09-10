@@ -1,11 +1,11 @@
-module github.com/peterldowns/pgmigrate/example
+module github.com/msepp/pgmigrate/example
 
 go 1.20
 
 require (
 	github.com/charmbracelet/log v0.4.0
 	github.com/lib/pq v1.10.9
-	github.com/peterldowns/pgmigrate v0.0.7
+	github.com/msepp/pgmigrate v0.0.7
 	github.com/peterldowns/pgtestdb v0.0.11
 	github.com/peterldowns/pgtestdb/migrators/pgmigrator v0.0.11
 	github.com/peterldowns/testy v0.0.1

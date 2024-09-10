@@ -5,7 +5,7 @@ import (
 
 	"github.com/charmbracelet/log"
 
-	"github.com/peterldowns/pgmigrate"
+	"github.com/msepp/pgmigrate"
 )
 
 type LogFormat string

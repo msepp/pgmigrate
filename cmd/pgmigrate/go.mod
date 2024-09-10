@@ -1,4 +1,4 @@
-module github.com/peterldowns/pgmigrate/cmd/pgmigrate
+module github.com/msepp/pgmigrate/cmd/pgmigrate
 
 go 1.18
 
@@ -6,7 +6,7 @@ require (
 	github.com/charmbracelet/log v0.4.0
 	github.com/fatih/color v1.17.0
 	github.com/jackc/pgx/v5 v5.6.0
-	github.com/peterldowns/pgmigrate v0.0.7
+	github.com/msepp/pgmigrate v0.0.7
 	github.com/spf13/cobra v1.8.1
 	gopkg.in/yaml.v3 v3.0.1
 )

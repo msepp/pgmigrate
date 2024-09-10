@@ -7,7 +7,7 @@ import (
 	_ "github.com/jackc/pgx/v5/stdlib" // pgx driver
 	"github.com/spf13/cobra"
 
-	"github.com/peterldowns/pgmigrate/cmd/pgmigrate/shared"
+	"github.com/msepp/pgmigrate/cmd/pgmigrate/shared"
 )
 
 var migrateCmd = &cobra.Command{ //nolint:gochecknoglobals

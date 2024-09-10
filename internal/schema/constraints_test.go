@@ -6,7 +6,7 @@ import (
 
 	"github.com/peterldowns/testy/check"
 
-	"github.com/peterldowns/pgmigrate/internal/schema"
+	"github.com/msepp/pgmigrate/internal/schema"
 )
 
 func TestLoadConstraintsSucceedsWithEmptyDB(t *testing.T) {

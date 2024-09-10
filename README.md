@@ -25,11 +25,11 @@ goal is to make migrations as simple and reliable as possible.
 
 # Documentation
 
-- The primary documentation is [this Github README, https://github.com/peterldowns/pgmigrate](https://github.com/peterldowns/pgmigrate).
+- The primary documentation is [this Github README, https://github.com/msepp/pgmigrate](https://github.com/msepp/pgmigrate).
 - The code itself is supposed to be well-organized, and each function has a
   meaningful docstring, so you should be able to explore it quite easily using
   an LSP plugin or by reading the code in Github or in your local editor.
-- You may also refer to [the go.dev docs, pkg.go.dev/github.com/peterldowns/pgmigrate](https://pkg.go.dev/github.com/peterldowns/pgmigrate).
+- You may also refer to [the go.dev docs, pkg.go.dev/github.com/msepp/pgmigrate](https://pkg.go.dev/github.com/msepp/pgmigrate).
 
 # Quickstart Example
 
@@ -53,11 +53,11 @@ brew install peterldowns/tap/pgmigrate
 ```
 
 #### Download a binary:
-Visit [the latest Github release](https://github.com/peterldowns/pgmigrate/releases/latest) and pick the appropriate binary. Or, click one of the shortcuts here:
-- [darwin-amd64](https://github.com/peterldowns/pgmigrate/releases/latest/download/pgmigrate-darwin-amd64)
-- [darwin-arm64](https://github.com/peterldowns/pgmigrate/releases/latest/download/pgmigrate-darwin-arm64)
-- [linux-amd64](https://github.com/peterldowns/pgmigrate/releases/latest/download/pgmigrate-linux-amd64)
-- [linux-arm64](https://github.com/peterldowns/pgmigrate/releases/latest/download/pgmigrate-linux-arm64)
+Visit [the latest Github release](https://github.com/msepp/pgmigrate/releases/latest) and pick the appropriate binary. Or, click one of the shortcuts here:
+- [darwin-amd64](https://github.com/msepp/pgmigrate/releases/latest/download/pgmigrate-darwin-amd64)
+- [darwin-arm64](https://github.com/msepp/pgmigrate/releases/latest/download/pgmigrate-darwin-arm64)
+- [linux-amd64](https://github.com/msepp/pgmigrate/releases/latest/download/pgmigrate-linux-amd64)
+- [linux-arm64](https://github.com/msepp/pgmigrate/releases/latest/download/pgmigrate-linux-arm64)
 
 #### Nix (flakes):
 ```bash
@@ -95,9 +95,9 @@ contain version information.
 
 ```bash
 # run it
-go run github.com/peterldowns/pgmigrate/cmd/pgmigrate@latest --help
+go run github.com/msepp/pgmigrate/cmd/pgmigrate@latest --help
 # install it
-go install github.com/peterldowns/pgmigrate/cmd/pgmigrate@latest
+go install github.com/msepp/pgmigrate/cmd/pgmigrate@latest
 ```
 
 ## Configuration
@@ -165,7 +165,7 @@ help` and `pgmigrate help <command>` for more details.
 
 ```shell
 # pgmigrate --help
-Docs: https://github.com/peterldowns/pgmigrate
+Docs: https://github.com/msepp/pgmigrate
 
 Usage:
   pgmigrate [flags]
@@ -218,14 +218,14 @@ Use "pgmigrate [command] --help" for more information about a command.
 
 ```bash
 # library
-go get github.com/peterldowns/pgmigrate@latest
+go get github.com/msepp/pgmigrate@latest
 ```
 
 ## Usage
 
 All of the methods available in the CLI are equivalently named and available in
 the library. Please read the cli help with `pgmigrate help <command>` or read
-the [the go.dev docs at pkg.go.dev/github.com/peterldowns/pgmigrate](https://pkg.go.dev/github.com/peterldowns/pgmigrate).
+the [the go.dev docs at pkg.go.dev/github.com/msepp/pgmigrate](https://pkg.go.dev/github.com/msepp/pgmigrate).
 
 # FAQ
 

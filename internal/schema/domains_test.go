@@ -9,8 +9,8 @@ import (
 	"github.com/peterldowns/testy/assert"
 	"github.com/peterldowns/testy/check"
 
-	"github.com/peterldowns/pgmigrate/internal/schema"
-	"github.com/peterldowns/pgmigrate/internal/withdb"
+	"github.com/msepp/pgmigrate/internal/schema"
+	"github.com/msepp/pgmigrate/internal/withdb"
 )
 
 func TestLoadDomainsSucceedsWithoutAnyDomains(t *testing.T) {

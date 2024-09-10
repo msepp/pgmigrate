@@ -10,8 +10,8 @@ import (
 	"github.com/peterldowns/testy/assert"
 	"github.com/peterldowns/testy/check"
 
-	"github.com/peterldowns/pgmigrate/internal/schema"
-	"github.com/peterldowns/pgmigrate/internal/withdb"
+	"github.com/msepp/pgmigrate/internal/schema"
+	"github.com/msepp/pgmigrate/internal/withdb"
 )
 
 // query is a helper for writing sql queries that look nice in vscode when using

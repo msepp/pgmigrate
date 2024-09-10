@@ -7,8 +7,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/peterldowns/pgmigrate/cmd/pgmigrate/shared"
-	"github.com/peterldowns/pgmigrate/internal/schema"
+	"github.com/msepp/pgmigrate/cmd/pgmigrate/shared"
+	"github.com/msepp/pgmigrate/internal/schema"
 )
 
 var DumpFlags struct {

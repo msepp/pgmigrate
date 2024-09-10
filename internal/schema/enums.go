@@ -6,7 +6,7 @@ import (
 
 	"github.com/lib/pq"
 
-	"github.com/peterldowns/pgmigrate/internal/pgtools"
+	"github.com/msepp/pgmigrate/internal/pgtools"
 )
 
 type Enum struct {

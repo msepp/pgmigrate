@@ -20,7 +20,7 @@ func CLIShort(s string) string {
 }
 
 var DocsLink = color.New(color.Faint).Sprint(
-	"Docs: https://github.com/peterldowns/pgmigrate",
+	"Docs: https://github.com/msepp/pgmigrate",
 )
 
 func CLIHelp(s string) string {

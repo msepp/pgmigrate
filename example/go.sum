@@ -28,8 +28,8 @@ github.com/mattn/go-runewidth v0.0.15 h1:UNAjwbU9l54TA3KzvqLGxwWjHmMgBUVhBiTjelZ
 github.com/mattn/go-runewidth v0.0.15/go.mod h1:Jdepj2loyihRzMpdS35Xk/zdY8IAYHsh153qUoGf23w=
 github.com/muesli/termenv v0.15.2 h1:GohcuySI0QmI3wN8Ok9PtKGkgkFIk7y6Vpb5PvrY+Wo=
 github.com/muesli/termenv v0.15.2/go.mod h1:Epx+iuz8sNs7mNKhxzH4fWXGNpZwUaJKRS1noLXviQ8=
-github.com/peterldowns/pgmigrate v0.0.7 h1:CCe8gP2F4/wWlakPheZa7zYlIyce9yolsdE3UePQ9tc=
-github.com/peterldowns/pgmigrate v0.0.7/go.mod h1:/4S/Qh3QniRc/0s05xmF95AtqNU7Lk0E0gpKawXftwM=
+github.com/msepp/pgmigrate v0.0.7 h1:CCe8gP2F4/wWlakPheZa7zYlIyce9yolsdE3UePQ9tc=
+github.com/msepp/pgmigrate v0.0.7/go.mod h1:/4S/Qh3QniRc/0s05xmF95AtqNU7Lk0E0gpKawXftwM=
 github.com/peterldowns/pgtestdb v0.0.11 h1:dDr+UDB/wWtl+1zv6hN5BV4sIQbnMFr9g79Id0VfeCY=
 github.com/peterldowns/pgtestdb v0.0.11/go.mod h1:c4kia5Amk5PUHqk10zg4x3a/vDqajjhAmKIjgxCEIM4=
 github.com/peterldowns/pgtestdb/migrators/pgmigrator v0.0.11 h1:J/bDySAl03L90pSAdFGqXvbhuSjhQZQVOMsUqkAxbmg=

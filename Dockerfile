@@ -5,7 +5,7 @@ FROM golang:1.22-alpine as builder
 RUN apk add build-base git
 
 # Have to put our source in the right place for it to build
-WORKDIR $GOPATH/src/github.com/peterldowns/pgmigrate
+WORKDIR $GOPATH/src/github.com/msepp/pgmigrate
 
 ENV GO111MODULE=on
 ENV CGO_ENABLED=1
@@ -32,7 +32,7 @@ ENV PGM_VERSION=$VERSION
 ENV PGM_COMMIT_SHA=$COMMIT_SHA
 
 RUN go build \
-  -ldflags "-X github.com/peterldowns/pgmigrate/cmd/pgmigrate/shared.Version=${PGM_VERSION} -X github.com/peterldowns/pgmigrate/cmd/pgmigrate/shared.Commit=${PGM_COMMIT_SHA}" \
+  -ldflags "-X github.com/msepp/pgmigrate/cmd/pgmigrate/shared.Version=${PGM_VERSION} -X github.com/msepp/pgmigrate/cmd/pgmigrate/shared.Commit=${PGM_COMMIT_SHA}" \
   -o /dist/pgmigrate \
   ./cmd/pgmigrate
 
@@ -58,7 +58,7 @@ ARG COMMIT_SHA=unknown
 ENV PGM_VERSION=$VERSION
 ENV PGM_COMMIT_SHA=$COMMIT_SHA
 
-LABEL org.opencontainers.image.source="https://github.com/peterldowns/pgmigrate"
+LABEL org.opencontainers.image.source="https://github.com/msepp/pgmigrate"
 LABEL org.opencontainers.image.description="pgmigrate"
 LABEL org.opencontainers.image.licenses="MIT"
 LABEL org.opencontainers.image.version="${PGM_VERSION}"

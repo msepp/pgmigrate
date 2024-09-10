@@ -44,8 +44,8 @@ github.com/mattn/go-runewidth v0.0.15 h1:UNAjwbU9l54TA3KzvqLGxwWjHmMgBUVhBiTjelZ
 github.com/mattn/go-runewidth v0.0.15/go.mod h1:Jdepj2loyihRzMpdS35Xk/zdY8IAYHsh153qUoGf23w=
 github.com/muesli/termenv v0.15.2 h1:GohcuySI0QmI3wN8Ok9PtKGkgkFIk7y6Vpb5PvrY+Wo=
 github.com/muesli/termenv v0.15.2/go.mod h1:Epx+iuz8sNs7mNKhxzH4fWXGNpZwUaJKRS1noLXviQ8=
-github.com/peterldowns/pgmigrate v0.0.7 h1:CCe8gP2F4/wWlakPheZa7zYlIyce9yolsdE3UePQ9tc=
-github.com/peterldowns/pgmigrate v0.0.7/go.mod h1:/4S/Qh3QniRc/0s05xmF95AtqNU7Lk0E0gpKawXftwM=
+github.com/msepp/pgmigrate v0.0.7 h1:CCe8gP2F4/wWlakPheZa7zYlIyce9yolsdE3UePQ9tc=
+github.com/msepp/pgmigrate v0.0.7/go.mod h1:/4S/Qh3QniRc/0s05xmF95AtqNU7Lk0E0gpKawXftwM=
 github.com/peterldowns/testy v0.0.1 h1:9a6LzvnKcL52Crzud1z7jbsAojTntCh89ho6mgsr4KU=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=

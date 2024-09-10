@@ -7,9 +7,9 @@ import (
 	"github.com/peterldowns/testy/assert"
 	"github.com/peterldowns/testy/check"
 
-	"github.com/peterldowns/pgmigrate/internal/migrations"
+	"github.com/msepp/pgmigrate/internal/migrations"
 
-	"github.com/peterldowns/pgmigrate"
+	"github.com/msepp/pgmigrate"
 )
 
 //go:embed internal/migrations/*.sql

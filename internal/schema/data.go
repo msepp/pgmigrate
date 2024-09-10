@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/peterldowns/pgmigrate/internal/pgtools"
+	"github.com/msepp/pgmigrate/internal/pgtools"
 )
 
 type Data struct {

@@ -61,8 +61,8 @@
             # Add any extra packages required to build the binaries should go here.
             buildInputs = [ ];
             ldflags = [
-              "-X github.com/peterldowns/pgmigrate/cmd/pgmigrate/shared.Version=${version}"
-              "-X github.com/peterldowns/pgmigrate/cmd/pgmigrate/shared.Commit=${commit}"
+              "-X github.com/msepp/pgmigrate/cmd/pgmigrate/shared.Version=${version}"
+              "-X github.com/msepp/pgmigrate/cmd/pgmigrate/shared.Commit=${commit}"
             ];
             modRoot = ".";
           };

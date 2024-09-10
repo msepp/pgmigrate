@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/peterldowns/pgmigrate/internal/multierr"
-	"github.com/peterldowns/pgmigrate/internal/pgtools"
-	"github.com/peterldowns/pgmigrate/internal/sessionlock"
+	"github.com/msepp/pgmigrate/internal/multierr"
+	"github.com/msepp/pgmigrate/internal/pgtools"
+	"github.com/msepp/pgmigrate/internal/sessionlock"
 )
 
 const (

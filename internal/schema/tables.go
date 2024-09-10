@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/peterldowns/pgmigrate/internal/pgtools"
+	"github.com/msepp/pgmigrate/internal/pgtools"
 )
 
 type Table struct {

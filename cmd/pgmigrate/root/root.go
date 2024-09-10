@@ -5,9 +5,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/peterldowns/pgmigrate"
-	"github.com/peterldowns/pgmigrate/cmd/pgmigrate/root/ops"
-	"github.com/peterldowns/pgmigrate/cmd/pgmigrate/shared"
+	"github.com/msepp/pgmigrate"
+	"github.com/msepp/pgmigrate/cmd/pgmigrate/root/ops"
+	"github.com/msepp/pgmigrate/cmd/pgmigrate/shared"
 )
 
 var Command = &cobra.Command{ //nolint:gochecknoglobals

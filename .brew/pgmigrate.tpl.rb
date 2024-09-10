@@ -1,6 +1,6 @@
 class Pgmigrate < Formula
   desc "Pgmigrate is a modern Postgres migrations CLI and library for golang."
-  homepage "https://github.com/peterldowns/pgmigrate"
+  homepage "https://github.com/msepp/pgmigrate"
   url "$SOURCE_URL"
   sha256 "$SOURCE_SHA_256"
   license "MIT"

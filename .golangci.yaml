@@ -5,7 +5,7 @@ linters-settings:
     disabled-checks:
       - ifElseChain
   goimports:
-    local-prefixes: github.com/peterldowns/pgmigrate
+    local-prefixes: github.com/msepp/pgmigrate
   govet:
     enable-all: true
     disable:
